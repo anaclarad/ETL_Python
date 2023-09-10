@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import json
 import openai
-openai_api_key = ''
+openai_api_key = 'CODE_API'
 openai.api_key = openai_api_key
 
 df = pd.read_csv('python_users.csv')
